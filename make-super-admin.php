@@ -1,5 +1,6 @@
 <?php
 include_once("debugger.php");
+include_once("db-connect.php");
 
 
 // Get form data
