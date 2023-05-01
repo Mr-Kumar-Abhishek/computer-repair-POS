@@ -16,6 +16,9 @@
 <!-- Site wrapper -->
 
 <div class="wrapper">
+    <?php 
+        include_once("modules/header.php");
+    ?>
 </div>
 <!-- ./wrapper -->
 
