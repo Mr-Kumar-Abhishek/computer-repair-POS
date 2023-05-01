@@ -2,6 +2,6 @@
 
 class ControllerTemplate {
     public function ctrTemplate() {
-        include "viewes/template.php";
+        include "views/template.php";
     }
 }
