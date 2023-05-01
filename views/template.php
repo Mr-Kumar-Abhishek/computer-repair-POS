@@ -27,6 +27,6 @@
 <script src="views/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="views/dist/js/demo.js"></script>
-<script src="views/js.template.js"></script>
+<script src="views/js/template.js"></script>
 </body>
 </html>
