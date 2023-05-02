@@ -25,13 +25,13 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-            <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-home"></i>
-              <p>
-                Home
-              </p>
-            </a>
-          </li>
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-home"></i>
+                        <p>
+                            Home
+                        </p>
+                </a>
+               </li>
         </ul>
        </nav>
 
