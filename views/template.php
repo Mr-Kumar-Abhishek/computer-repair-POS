@@ -18,6 +18,7 @@
 <div class="wrapper">
     <?php 
         include_once("modules/header.php");
+        include_once("modules/menu.php");
     ?>
 </div>
 <!-- ./wrapper -->
