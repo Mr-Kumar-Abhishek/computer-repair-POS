@@ -32,6 +32,38 @@
                         </p>
                 </a>
                </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            Users
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-th"></i>
+                        <p>
+                            categories
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fab fa-product-hunt"></i>
+                        <p>
+                            products
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-th"></i>
+                        
+                            services
+                        </p>
+                </a>
+               </li>
         </ul>
        </nav>
 
