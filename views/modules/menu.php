@@ -42,6 +42,21 @@
                </li>
                <li class="nav-item">
                 <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-ticket-alt"></i>
+                        <p>
+                            jobs
+                        </p>
+                </a>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-people-carry"></i>
+                        <p>
+                            outsource
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                         <p>
                             categories
@@ -58,11 +73,107 @@
                </li>
                <li class="nav-item">
                 <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            clients
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
                     <i class="nav-icon fab fa-servicestack"></i>
-                        
+                        <p>
                             services
                         </p>
                 </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-universal-access"></i>
+                        <p>
+                            sales
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-file-invoice-dollar"></i>
+                        <p>
+                            quotations
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-shopping-cart"></i>
+                        <p>
+                            purchase
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tools"></i>
+                        <p>
+                            parts
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-database"></i>
+                        <p>
+                            Back up drives
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-chart-line"></i>
+                        <p>
+                            reports
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user"></i>
+                        <p>
+                            employees
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tasks"></i>
+                        <p>
+                            tasks
+                        </p>
+                </a>
+               </li>
+               <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                        <p>
+                            leads
+                        </p>
+                </a>
+               </li class="nav-item">
+               <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-rupee-sign"></i>
+                        <p>
+                            expenses
+                        </p>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-business-time"></i>
+                        <p>
+                            pickup drops
+                        </p>
+                  </a>
                </li>
         </ul>
        </nav>
