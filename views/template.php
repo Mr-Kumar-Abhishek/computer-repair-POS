@@ -19,7 +19,11 @@
     <?php 
         include_once("modules/header.php");
         include_once("modules/menu.php");
-        include_once("modules/content.php");
+        if (isset($_GET['root'])) {
+          if($_GET['root'] == "home") {
+            include_once("modules/content.php");
+          }
+        }
         include_once("modules/footer.php");
     ?>
 </div>
