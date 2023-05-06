@@ -25,7 +25,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="home" class="nav-link">
                     <i class="nav-icon fas fa-home"></i>
                         <p>
                             Home
@@ -33,7 +33,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="users" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                         <p>
                             Users
@@ -50,19 +50,19 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="./index.html" class="nav-link active">
+                <a href="invoices" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Invoices</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index2.html" class="nav-link">
+                <a href="payements" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Payments</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
+                <a href="collect-payements" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Collect payments</p>
                 </a>
@@ -70,7 +70,7 @@
             </ul>
           </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="jobs" class="nav-link">
                     <i class="nav-icon fas fa-ticket-alt"></i>
                         <p>
                             jobs
@@ -78,7 +78,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="outsource" class="nav-link">
                     <i class="nav-icon fas fa-people-carry"></i>
                         <p>
                             outsource
@@ -86,7 +86,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="categories" class="nav-link">
                     <i class="nav-icon fas fa-th"></i>
                         <p>
                             categories
@@ -94,7 +94,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="products" class="nav-link">
                     <i class="nav-icon fab fa-product-hunt"></i>
                         <p>
                             products
@@ -102,7 +102,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="clients" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                         <p>
                             clients
@@ -110,7 +110,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="services" class="nav-link">
                     <i class="nav-icon fab fa-servicestack"></i>
                         <p>
                             services
@@ -118,7 +118,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="sales" class="nav-link">
                     <i class="nav-icon fas fa-universal-access"></i>
                         <p>
                             sales
@@ -126,7 +126,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="quotations" class="nav-link">
                     <i class="nav-icon fas fa-file-invoice-dollar"></i>
                         <p>
                             quotations
@@ -134,7 +134,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="purchase" class="nav-link">
                     <i class="nav-icon fas fa-shopping-cart"></i>
                         <p>
                             purchase
@@ -142,7 +142,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="parts" class="nav-link">
                     <i class="nav-icon fas fa-tools"></i>
                         <p>
                             parts
@@ -150,7 +150,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="back-up-drives" class="nav-link">
                     <i class="nav-icon fas fa-database"></i>
                         <p>
                             Back up drives
@@ -158,7 +158,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="reports" class="nav-link">
                     <i class="nav-icon fas fa-chart-line"></i>
                         <p>
                             reports
@@ -166,7 +166,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="employees" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
                         <p>
                             employees
@@ -174,7 +174,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="tasks" class="nav-link">
                     <i class="nav-icon fas fa-tasks"></i>
                         <p>
                             tasks
@@ -182,7 +182,7 @@
                 </a>
                </li>
                <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="leads" class="nav-link">
                     <i class="nav-icon fas fa-users"></i>
                         <p>
                             leads
@@ -190,7 +190,7 @@
                 </a>
                </li class="nav-item">
                <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="expenses" class="nav-link">
                     <i class="nav-icon fas fa-rupee-sign"></i>
                         <p>
                             expenses
@@ -198,7 +198,7 @@
                   </a>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="pickup drops" class="nav-link">
                     <i class="nav-icon fas fa-business-time"></i>
                         <p>
                             pickup drops
