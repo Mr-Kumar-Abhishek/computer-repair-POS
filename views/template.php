@@ -41,7 +41,8 @@
              $_GET['root'] == "expenses" || 
              $_GET['root'] == "pick-up-drops" || 
              $_GET['root'] == "tasks" || 
-             $_GET['root'] == "tasks") {
+             $_GET['root'] == "tasks" || 
+             $_GET['root'] == "categories") {
              include_once("modules/content.php");
           }
         }
