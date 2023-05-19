@@ -56,13 +56,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="payements" class="nav-link">
+                <a href="payments" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Payments</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="collect-payements" class="nav-link">
+                <a href="collect-payments" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Collect payments</p>
                 </a>
@@ -198,7 +198,7 @@
                   </a>
                </li>
                <li class="nav-item">
-                  <a href="pickup drops" class="nav-link">
+                  <a href="pick-up-drops" class="nav-link">
                     <i class="nav-icon fas fa-business-time"></i>
                         <p>
                             pickup drops

@@ -20,8 +20,29 @@
         include_once("modules/header.php");
         include_once("modules/menu.php");
         if (isset($_GET['root'])) {
-          if($_GET['root'] == "home") {
-            include_once("modules/content.php");
+          if($_GET['root'] == "home" ||
+             $_GET['root'] == "users" ||
+             $_GET['root'] == "invoices" ||
+             $_GET['root'] == "payments" ||
+             $_GET['root'] == "collect-payments" ||
+             $_GET['root'] == "jobs" ||
+             $_GET['root'] == "outsource" || 
+             $_GET['root'] == "products" || 
+             $_GET['root'] == "clients" || 
+             $_GET['root'] == "sales" || 
+             $_GET['root'] == "services" || 
+             $_GET['root'] == "quotations" ||
+             $_GET['root'] == "purchase" || 
+             $_GET['root'] == "parts" || 
+             $_GET['root'] == "back-up-drives" || 
+             $_GET['root'] == "reports" || 
+             $_GET['root'] == "employees" || 
+             $_GET['root'] == "leads" || 
+             $_GET['root'] == "expenses" || 
+             $_GET['root'] == "pick-up-drops" || 
+             $_GET['root'] == "tasks" || 
+             $_GET['root'] == "tasks") {
+             include_once("modules/content.php");
           }
         }
         include_once("modules/footer.php");
