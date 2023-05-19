@@ -43,7 +43,7 @@
              $_GET['root'] == "tasks" || 
              $_GET['root'] == "tasks" || 
              $_GET['root'] == "categories") {
-             include_once("modules/content.php");
+             include_once("modules/" . $_GET['root'] .".php");
           }
         }
         include_once("modules/footer.php");
