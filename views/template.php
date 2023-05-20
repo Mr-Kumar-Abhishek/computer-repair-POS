@@ -12,11 +12,15 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="views/dist/css/adminlte.min.css">
 </head>
-<body class="hold-transition sidebar-mini">
+<body class="hold-transition sidebar-mini login-page">
 <!-- Site wrapper -->
 
-<div class="wrapper">
+
     <?php 
+      if (isset($_SESSION["BeginSession"]) && $_SESSION["BeginSession"] == "") {
+
+      
+        echo '<div class="wrapper">';
         include_once("modules/header.php");
         include_once("modules/menu.php");
         if (isset($_GET['root'])) {
@@ -48,8 +52,11 @@
           }
         }
         include_once("modules/footer.php");
+        echo "<div>";
+      } else {
+        include_once("modules/login.php");
+      }
     ?>
-</div>
 <!-- ./wrapper -->
 
 <!-- jQuery -->
