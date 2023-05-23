@@ -49,7 +49,8 @@
              $_GET['root'] == "expenses" || 
              $_GET['root'] == "pick-up-drops" || 
              $_GET['root'] == "tasks" || 
-             $_GET['root'] == "categories") {
+             $_GET['root'] == "categories" ||
+             $_GET['root'] == "logout") {
              include_once("modules/" . $_GET['root'] .".php");
           } else {
              include_once("modules/404.php");
