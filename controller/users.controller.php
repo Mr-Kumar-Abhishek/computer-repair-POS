@@ -19,6 +19,11 @@ class ControllerUser{
 
                 if($request["username"] == $_POST['username'] && $request["password"] == $_POST['password']) {
                     echo "<br> <div class='alert alert-success'>Welcome to the system</div>";
+
+                    $_SESSION["BeginSession"] = "ok";
+
+                    echo "<script> window.location = 'home';</script>";
+
                 } else {
                     echo "<br> <div class='alert alert-danger'> Error in login, please try again</div>";  
                 }

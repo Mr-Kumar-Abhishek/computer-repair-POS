@@ -1,3 +1,7 @@
+<?php
+  session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,7 +21,7 @@
 
 
     <?php 
-      if (isset($_SESSION["BeginSession"]) && $_SESSION["BeginSession"] == "") {
+      if (isset($_SESSION["BeginSession"]) && $_SESSION["BeginSession"] == "ok") {
 
       
         echo '<div class="wrapper">';
