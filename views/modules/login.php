@@ -7,9 +7,9 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg">Sign in to start your session</p>
 
-      <form action="../../index3.html" method="post">
+      <form method="post">
         <div class="input-group mb-3">
-          <input type="email" class="form-control" placeholder="username" name="username" required>
+          <input type="text" class="form-control" placeholder="username" name="username" required>
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -31,6 +31,10 @@
           </div>
           <!-- /.col -->
         </div>
+        <?php 
+            $login = new ControllerUser();
+            $login->ctrlUserLogin();
+        ?>
       </form>
       <p class="mb-1">
         <a href="forgot-password.html">I forgot my password</a>
