@@ -45,6 +45,49 @@
       </div>
       <!-- /.card -->
 
+
+      <!-- Default box -->
+      <div class="card">
+        <div class="card-header">
+          <h3>Add users</h3>
+          <div class="card-tools">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddUser">
+              Add User
+            </bottom> 
+            <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+              <i class="fas fa-minus"></i>
+            </button>
+            <button type="button" class="btn btn-tool" data-card-widget="remove" title="Remove">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+        </div>
+        <div class="card-body">
+            <table class="table table-bordered table-hover">
+            <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Username</th>
+                    <th>Photo</th>
+                    <th>profile</th>
+                    <th>Status</th>
+                    <th>Last Login</th>
+                    <th>Actions</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  </tbody>
+            </table>
+        </div>
+        <!-- /.card-body -->
+        <div class="card-footer">
+          Footer
+        </div>
+        <!-- /.card-footer-->
+      </div>
+      <!-- /.card -->
+
     </section>
     <!-- /.content -->
   </div>
