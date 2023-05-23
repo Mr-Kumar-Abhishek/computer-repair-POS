@@ -17,7 +17,11 @@ class ControllerUser{
 
                 $request = ModelUsers::ModelShowUsers($table, $item, $value);
 
-                var_dump($request);
+                if($request["username"] == $_POST['username'] && $request["password"] == $_POST['password']) {
+                    echo "<br> <div class='alert alert-success'>Welcome to the system</div>";
+                } else {
+                    echo "<br> <div class='alert alert-danger'> Error in login, please try again</div>";  
+                }
             }
 
         }
