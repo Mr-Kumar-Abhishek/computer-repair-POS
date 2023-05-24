@@ -155,18 +155,27 @@
                 
                   <div class="form-group">
                     <label for="InputUsername">Username</label>
-                     <i class="fas fa-key"></i><input type="text" class="form-control" id="addUserName" aria-describedby="InputUsername">
-                    <small id="emailHelp" class="form-text text-muted">Input a unique username.</small>
+                     <i class="fas fa-key"></i><input type="text" name="username" class="form-control" id="addUserName" aria-describedby="InputUsername">
+                    <small id="usernameHelp" class="form-text text-muted">Input a unique username.</small>
                   </div>
                   <div class="form-group">
                     <label for="InputName">Name</label> 
                     <i class="fas fa-user"></i>
-                    <input type="text" class="form-control" id="InputName">
+                    <input type="text" name="sname" class="form-control" id="InputName">
                   </div>
                   <div class="form-group">
                     <label for="InputPassword">Password</label> 
                     <i class="fas fa-lock"></i>
-                    <input type="password" class="form-control" id="exampleInputPassword">
+                    <input type="password" name="passowrd" class="form-control" id="exampleInputPassword">
+                  </div>
+                  <div class="form-group">
+                    <label for="profileFormControlSelect">Profiles</label>
+                    <select class="form-control" name="profileid="profileFormControlSelect">
+                      <option value="">Select Profile</option>
+                      <option value="administrator">Administrator</option>
+                      <option value="especial">Especial</option>
+                      <option value="vendor">Vendor</option>
+                    </select>
                   </div>
               </div>
               <div class="modal-footer justify-content-between">
