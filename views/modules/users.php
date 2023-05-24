@@ -83,7 +83,7 @@
                       <td>admin</td>
                       <td></td>
                       <td>Administrator</td>
-                      <td><button class="btn btn-success btn-xs">Activate</button></td>
+                      <td><button class="btn btn-success btn-xs">Activated</button></td>
                       <td>24-05-2023</td>
                       <td>
                         <div class="btn-group">
@@ -98,7 +98,7 @@
                       <td>admin</td>
                       <td></td>
                       <td>Administrator</td>
-                      <td><button class="btn btn-success btn-xs">Activate</button></td>
+                      <td><button class="btn btn-success btn-xs">Activated</button></td>
                       <td>24-05-2023</td>
                       <td>
                         <div class="btn-group">
@@ -113,7 +113,7 @@
                       <td>admin</td>
                       <td></td>
                       <td>Administrator</td>
-                      <td><button class="btn btn-success btn-xs">Activate</button></td>
+                      <td><button class="btn btn-danger btn-xs">Deactivated</button></td>
                       <td>24-05-2023</td>
                       <td>
                         <div class="btn-group">
