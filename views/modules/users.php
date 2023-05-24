@@ -179,7 +179,7 @@
                   </div>
                   <div class="form-group">
                     <label for="FormControlProfilePic">Profile Picture</label>
-                    <input type="file" class="form-control-file" id="FormControlProfilePic">
+                    <input type="file" name="profilePicture" class="form-control-file" id="FormControlProfilePic">
                   </div>
               </div>
               <div class="modal-footer justify-content-between">
