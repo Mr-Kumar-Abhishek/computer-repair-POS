@@ -51,7 +51,7 @@
         <div class="card-header">
           <h3>Add users</h3>
           <div class="card-tools">
-            <button class="btn btn-primary" data-toggle="modal" data-target="#modalAddUser">
+            <button class="btn btn-primary" data-toggle="modal" data-target="#modal-add-user">
               Add User
             </bottom> 
             <button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
@@ -137,3 +137,29 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+
+  <!-- add user model -->
+
+
+  <div class="modal fade" id="modal-add-user">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Default Modal</h4>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>One fine body&hellip;</p>
+            </div>
+            <div class="modal-footer justify-content-between">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+          <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+      </div>
+      <!-- /.modal -->
