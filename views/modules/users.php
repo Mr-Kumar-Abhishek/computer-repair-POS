@@ -144,7 +144,7 @@
   <div class="modal fade" id="modal-add-user">
         <div class="modal-dialog">
           <div class="modal-content">
-            <form>
+            <form method="post" enctype="multipart/form-data">
               <div class="modal-header">
                 <h4 class="modal-title">Add User</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
