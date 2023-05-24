@@ -144,19 +144,36 @@
   <div class="modal fade" id="modal-add-user">
         <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Default Modal</h4>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <p>One fine body&hellip;</p>
-            </div>
-            <div class="modal-footer justify-content-between">
-              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-            </div>
+            <form>
+              <div class="modal-header">
+                <h4 class="modal-title">Add User</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                
+                  <div class="form-group">
+                    <label for="InputUsername">Username</label>
+                     <i class="fas fa-key"></i><input type="text" class="form-control" id="addUserName" aria-describedby="InputUsername">
+                    <small id="emailHelp" class="form-text text-muted">Input a unique username.</small>
+                  </div>
+                  <div class="form-group">
+                    <label for="InputName">Name</label> 
+                    <i class="fas fa-user"></i>
+                    <input type="text" class="form-control" id="InputName">
+                  </div>
+                  <div class="form-group">
+                    <label for="InputPassword">Password</label> 
+                    <i class="fas fa-lock"></i>
+                    <input type="password" class="form-control" id="exampleInputPassword">
+                  </div>
+              </div>
+              <div class="modal-footer justify-content-between">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Save changes</button>
+              </div>
+            <form>
           </div>
           <!-- /.modal-content -->
         </div>
