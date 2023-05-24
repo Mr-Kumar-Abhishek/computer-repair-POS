@@ -77,6 +77,21 @@
                   </tr>
                   </thead>
                   <tbody>
+                    <tr>
+                      <td>1</td>
+                      <td>Admin</td>
+                      <td>admin</td>
+                      <td></td>
+                      <td>Administrator</td>
+                      <td><button class="btn btn-success btn-xs">Activate</button></td>
+                      <td>24-05-2023</td>
+                      <td>
+                        <div class="btn-group">
+                          <button class="btn btn-warning" ><i class="fas fa-pencil"></i> edit </button> 
+                          <button class="btn btn-danger"><i class="fas fa-times"></i> delete </button>
+                        </div>
+                      </td>
+                    </td>
                   </tbody>
             </table>
         </div>
