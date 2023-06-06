@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="card-body">
-            <table class="table table-bordered table-hover">
+            <table class="table table-bordered table-hover user-table">
             <thead>
                   <tr>
                     <th>#</th>
