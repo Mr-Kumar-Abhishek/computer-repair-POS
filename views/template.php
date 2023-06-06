@@ -21,7 +21,6 @@
   <link rel="stylesheet" href="views/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
   <link rel="stylesheet" href=views/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
 
-  <link rel="stylesheet" href="views/css/datatables.css">
 </head>
 <body class="hold-transition sidebar-mini login-page">
 <!-- Site wrapper -->
@@ -95,7 +94,6 @@
 <script src="views/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="views/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
 
-<script src="views/js/datatables.js"></script>
 <script src="views/js/main.js"></script>
 </body>
 </html>
