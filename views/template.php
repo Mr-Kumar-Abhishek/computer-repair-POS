@@ -77,8 +77,8 @@
 <!-- AdminLTE App -->
 <script src="views/dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="views/dist/js/demo.js"></script>
-<script src="views/js/template.js"></script>
+<!-- <script src="views/dist/js/demo.js"></script>
+-->
 
 <!-- DataTables  & Plugins -->
 <script src="views/plugins/datatables/jquery.dataTables.min.js"></script>
@@ -93,7 +93,7 @@
 <script src="views/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
 <script src="views/plugins/datatables-buttons/js/buttons.print.min.js"></script>
 <script src="views/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
-
+<script src="views/js/template.js"></script>
 <script src="views/js/main.js"></script>
 </body>
 </html>
