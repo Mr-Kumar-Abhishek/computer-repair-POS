@@ -63,7 +63,7 @@
           </div>
         </div>
         <div class="card-body">
-            <table class="table table-bordered table-hover user-table">
+            <table class="table table-bordered table-hover dt responsive user-table">
             <thead>
                   <tr>
                     <th>#</th>
